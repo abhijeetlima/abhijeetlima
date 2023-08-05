@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.codewithabhijit.hotel")
+//@ComponentScan(basePackages = "com.codewithabhijit.hotel")
 public class HotelManagementSystemApplication  {
 	
 

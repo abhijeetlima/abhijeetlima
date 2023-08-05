@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codewithabhijit.hotel.payloads.ApiResponse;
 import com.codewithabhijit.hotel.payloads.CustomerDto;
+import com.codewithabhijit.hotel.payloads.ApiResponse;
 import com.codewithabhijit.hotel.services.CustomerService;
 
 @RestController

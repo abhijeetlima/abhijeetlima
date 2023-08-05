@@ -3,6 +3,8 @@ package com.codewithabhijit.hotel.controllers;
 import java.util.List;
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,14 +19,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codewithabhijit.hotel.entities.Employees;
-import com.codewithabhijit.hotel.payloads.ApiResponse;
 import com.codewithabhijit.hotel.payloads.EmployeesDto;
+import com.codewithabhijit.hotel.payloads.ApiResponse;
 import com.codewithabhijit.hotel.repositories.EmployeesRepo;
 import com.codewithabhijit.hotel.services.EmployeesService;
 
-
-import jakarta.validation.Valid;
 import lombok.ToString;
 
 @RestController
